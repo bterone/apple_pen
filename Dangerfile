@@ -6,6 +6,7 @@ rails_best_practices.lint
 # Runs Rubocop and submit comments on modified and added files
 rubocop.lint(inline_comment: true, force_exclusion: true)
 
+stylelint.ignore_file = './assets/stylesheets/components/_ugly-card-1.scss'
 stylelint.lint
 
 # Runs Brakeman on modified and added files
