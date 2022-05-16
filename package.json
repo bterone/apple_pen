@@ -1,0 +1,31 @@
+{
+  "name": "apple-pen",
+  "private": true,
+  "dependencies": {
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "esbuild": "0.14.39",
+    "i18n-js": "3.8.0",
+    "sass": "1.51.0",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "@nimblehq/eslint-config-nimble": "2.2.1",
+    "postcss": "8.4.5",
+    "stylelint": "14.8.2",
+    "stylelint-config-property-sort-order-smacss": "9.0.0",
+    "stylelint-config-sass-guidelines": "9.0.1"
+  },
+  "scripts": {
+    "eslint": "eslint . --color",
+    "eslint:fix": "eslint . --color --fix",
+    "stylelint": "stylelint **/*.scss --color",
+    "stylelint:fix": "stylelint **/*.scss --color --fix",
+    "codebase": "yarn eslint && yarn stylelint",
+    "codebase:fix": "yarn eslint:fix && yarn stylelint:fix",
+    "build": "node app/javascript/build.js",
+    "build:css": "sass app/assets/stylesheets/application.scss app/assets/builds/application.css --no-source-map --load-path=node_modules"
+  }
+}
