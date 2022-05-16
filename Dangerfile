@@ -7,22 +7,22 @@ rails_best_practices.lint
 rubocop.lint(inline_comment: true, force_exclusion: true)
 
 # Runs Brakeman on modified and added files
-brakeman.run
+# brakeman.run
 
 # Runs Reek on modified and added files
-reek.lint
+# reek.lint
 
 # Suggests code changes in the PR
-suggester.suggest
+# suggester.suggest
 
 # Runs ESLint on modified and added files in the PR
-eslint.lint
+# eslint.lint
 
 # Runs slim-lint on modified and added files in the PR
-slim_lint.lint
+# slim_lint.lint
 
 # Report your Ruby app test suite code coverage in Danger.
-simplecov.report 'coverage/coverage.json'
+# simplecov.report 'coverage/coverage.json'
 
 # Report missing test coverage of new changes in Danger
-undercover.report
+# undercover.report
