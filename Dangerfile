@@ -6,6 +6,8 @@ rails_best_practices.lint
 # Runs Rubocop and submit comments on modified and added files
 rubocop.lint(inline_comment: true, force_exclusion: true)
 
+stylelint.lint
+
 # Runs Brakeman on modified and added files
 # brakeman.run
 
