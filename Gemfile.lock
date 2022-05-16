@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/nimblehq/danger-stylelint.git
-  revision: 259fc783c97e4cb5403ff46840ac25f61eed6d7b
+  revision: 2baa23eecb06a280aeb23ae84dbf74a2e8332148
   branch: feature/create-danger-stylelint
   specs:
     danger-stylelint (0.0.1)
