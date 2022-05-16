@@ -83,7 +83,7 @@ group :development, :test do
   gem 'danger-brakeman_scanner' # Security static analysis scanner in danger.
   gem 'danger-suggester' # Suggest code changes based on configured code formatter.
   gem 'danger-simplecov_json' # Report your Ruby app test suite code coverage in Danger.
-  gem 'danger-stylelint', git: 'https://github.com/nimblehq/danger-stylelint.git', ref: '7d7d094'
+  gem 'danger-stylelint', git: 'https://github.com/nimblehq/danger-stylelint.git', ref: '3670a95'
   gem 'danger-undercover' # Report missing test coverage of new changes in Danger
 end
 

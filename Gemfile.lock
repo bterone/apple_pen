@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/nimblehq/danger-stylelint.git
-  revision: 7d7d09433b3ba8a11225e72f5d5395ba63b22059
-  ref: 7d7d094
+  revision: 3670a957c12d46632d977aac4968a8673b43d4cf
+  ref: 3670a95
   specs:
     danger-stylelint (0.0.1)
       danger-plugin-api (~> 1.0)
