@@ -11,7 +11,11 @@
     background-color: #000;
 
     .invalid {
-      background-color: red
+      background-color: red;
+
+      .another-nesting {
+        background-color: blue
+      }
     }
   }
 }
