@@ -1,3 +1,15 @@
 .card {
-  color: #fff;
+  color: red;
+
+  .bg {
+    color: blue;
+
+    .invalid {
+      color: green;
+
+      .valid {
+        color: yellow;
+      }
+    }
+  }
 }
