@@ -1,21 +1,3 @@
 .card {
-  color: red;
-  height: 2em;
-  background-color: #000;
-  width: 5px;
-  display: flex;
-
-  .big-logo {
-    height: 2em;
-    width: 5px;
-    background-color: #000;
-
-    .invalid {
-      background-color: red;
-
-      .another-nesting {
-        background-color: blue
-      }
-    }
-  }
+  color: #fff;
 }
