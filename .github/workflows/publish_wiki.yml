@@ -5,12 +5,13 @@ on:
     paths:
       - .github/wiki/**
     branches:
-      - develop
+      - main
+    workflow_dispatch:
 
 jobs:
   publish:
     name: Publish Wiki
-    uses: nimblehq/github-actions-workflows/.github/workflows/publish_wiki.yml@0.1.0
+    uses: nimblehq/github-actions-workflows/.github/workflows/publish_wiki.yml@0.1.0-alpha-4
     with:
       USER_NAME: github-wiki-workflow
       USER_EMAIL: ${{ secrets.GH_EMAIL }}
